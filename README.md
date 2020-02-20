@@ -1,4 +1,6 @@
-### Go Sample API
+### Go API Server
+
+It is a sample API server developed by Go. It is my first development work in Go.
 
 ### Development Prerequisite
 
