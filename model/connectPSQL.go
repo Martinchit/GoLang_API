@@ -16,7 +16,7 @@ var con *sql.DB
 // Connect Database
 func Connect() *sql.DB {
 	// Connect to the DB, panic if failed
-	psqlURL := getPsqlURL("PSQL")
+	psqlURL := getPsqlURL("DATABASE_URL")
 	db, err := sql.Open("postgres", psqlURL)
 	if err != nil {
 		fmt.Println(`Could not connect to db`)
